@@ -4,6 +4,11 @@
 body {
   width: 900px;
   margin: 10px auto;
+  color:red;
+  font-size:18px;
+  font-family: 'Supermercado One';
+  background-image: url("https://media1.tenor.com/images/7d3f352b46140c04db37c92f71d4e157/tenor.gif?itemid=8966840")
+  
 }
 
 nav {
@@ -12,11 +17,17 @@ nav {
 }
 
 /* Use the 'Supermercado One' font at 45px (colored #5d4037) for the restaurant name. */
-
+header{
+  color: #03ff4b;
+  font-family: 'Supermercado One';
+  font-size: 45px;
+}
 /* Set the separator between the columns (the "column-rule") to be 2px dashed rosybrown. */
 main {
   columns: 400px 2;
   column-gap: 100px;
+  colum-rule; 2px dashed red;
+
 }
 
 section {
