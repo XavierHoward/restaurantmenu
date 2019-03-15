@@ -4,6 +4,9 @@
 body {
   width: 900px;
   margin: 10px auto;
+  font-family:"Oswald";
+  font-size: 14px;
+
 }
 
 nav {
@@ -17,6 +20,11 @@ main {
   columns: 420px 2;
   column-gap: 60px;
 }
+
+h1 {font-family: "Bungee Inline";
+font-size: 46px;
+font-weight:lighter;}
+
 section {
   margin-bottom: 20px;
   padding: 10px;
@@ -25,10 +33,13 @@ section {
 /* Show each of the section headings of the menu (e.g. "Starters") in uppercase. */
 h2 {
   margin-top: 0;
+  text-transform:uppercase;
 }
 
+
 /* Make the name of each menu item appear in bold in a 16px size. */
-dt {
+dt { text-weight:bold;
+font-size: 16px;
   display: inline;
 }
 /* Make a comma appear after the name of each menu item (before the description) */
@@ -37,6 +48,8 @@ dd {
   display: inline;
   margin: 0;
 }
+
+dd::before {content: ","; }
 
 dd::after {
   content: " ";
@@ -49,6 +62,14 @@ dd::after {
   float: right;
   padding: 0 0 35px 20px;
 }
+
+section#starters{ border: 2px solid black;}
+
+section#desserts { border: 2px solid black;
+}
+
+footer { text-align:right;}
+
 
 /* Right-align the text of the address/footer */
 
